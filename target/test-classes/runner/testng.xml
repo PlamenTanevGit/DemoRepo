@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+    
+    <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+       <listener class-name="listeners.CustomListeners"/>
+       <listener class-name="listeners.listeners"/>
+  </listeners>
+    
+    
+	<test name="ZZero Bank">
+		<classes>
+			<class name="rough.rough2" />
+		</classes>
+	</test> <!-- Test -->
+	
+
+	
+		
+	
+</suite> <!-- Suite -->
