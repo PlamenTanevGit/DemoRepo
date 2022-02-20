@@ -1,0 +1,21 @@
+- src/main/java
+	packages
+		-base - hold the base.java
+		-listeners - hold the listener class/classes
+		-pages - hold the business pages of the site, here also we keep the business logic on each site
+		-utilities - holds the utilities classes helping 
+		
+		
+		
+- src/test/resources/
+	- excel folder = keep excel data
+	- executables = keep web drivers Chtome,FF,...
+	- extentconfig = keep confgiration for extent reports
+	- logs = keep application.log / selenium.log
+	- properties = keep the properties files. 
+			-Config.properties = general properties - browser/implicit wait/ testsiteurl
+			-OR.properties = xpaths and locators
+			-log4j.properties = properties for logs.
+	-runner = runner Suite .xml
+	
+	

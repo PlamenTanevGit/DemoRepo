@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<!-- ReportNG needed listeners -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+		<listener class-name="listeners.CustomListeners"></listener>
+
+	</listeners>
+
+	<test thread-count="5" name="Home Page Tests">
+		<classes>
+			<class name="testCases.HomePageTests">
+				<methods>
+					<include name="globalSearch" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Login Page Tests">
+		<classes>
+			<class name="testCases.LoginPageTests">
+				<methods>
+					<include name="validLoginAndTitleVerify" />
+					<include name="globalSearch" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+</suite> <!-- Suite -->

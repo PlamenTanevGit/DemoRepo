@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Page Tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.542">
+  <properties />
+  
+  
+            <testcase name="globalSearch" time="11.030" classname="testCases.LoginPageTests" />
+                <testcase name="validLoginAndTitleVerify" time="14.512" classname="testCases.LoginPageTests" />
+      
+</testsuite>
